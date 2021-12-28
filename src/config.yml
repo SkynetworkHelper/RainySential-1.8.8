@@ -1,0 +1,29 @@
+# DEFAULT CONFIG FOR RE1.8.8
+# SOME BUGS OR THE PLUGIN BEING LAGGY THAT'S BECAUSE THE AUTHOR OF THIS PLUGIN IS A JAVA NEWBIE
+# THANKS FOR DOWNLOADING THIS PLUGIN
+# COLOR CODE ARE SUPPORTED "&"
+# IF SOMEHOW THE PLACEHOLDERS(%theplaceholder%) IS NOT WORKING THIS HAPPENS BECAUSE YOU DON'T HAVE THE API FOR THAT
+# TO FIX THAT PROBLEM USE /papi ecloud download nameoftheplaceholder [version]
+
+# SOME OF MY PLACEHOLDERS
+# %chat_cooldown_timeleft%
+
+Messages:
+  Welcome: "&c---&aWelcome &6%player_name% &aHOPE YOU ENJOY YOUR STAY&c---"
+  ReloadConfig: "&c---&aPlugin config &6Reloaded&c---"
+  Cooldown: "&cCooldown is for this Command/Event enabled pls wait &7[&c%cooldown_timeleft%&7]."
+  NotEnoughPermissions: "&cNot enough permissions."
+  ConsoleNotAllowed: "&cSorry this command is for players only."
+  CantReportYourSelf: "&cYou can't report your self"
+  PlayerIsOfflineOrDoesNotExist: "&cPlayer might not exist or the player is offline."
+  ReportMessageForAll: "&c--------------------\n\n    &6&l%reporter% &cReported &6&l%reported%\n    &c&lReason &7> &f%reason%    \n\n&c-------------------- "
+  RepportMessageStaffs: "&c--------------------\n\n    &6&l%reporter% &cReported &6&l%reporter%\n    &c&lReason &7> &f%reason%\n    &aDo something you're a staff     \n\n&c--------------------"
+
+ChatCooldown: true
+
+ReportCooldown: true
+
+#COOLDOWNS ALL IN SECONDS
+Cooldowns:
+  Report: 120
+  Chat: 5

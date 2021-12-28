@@ -1,0 +1,10 @@
+main: com.rainyganplugs.Main
+name: RE1.8.8
+version: 1.0.1
+api-version: 1.8.8
+description: wla lang :)
+author: Rainygan
+prefix: RE1.8.8
+commands:
+  re:
+  report:
